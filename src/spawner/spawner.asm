@@ -382,16 +382,16 @@ _Select_Game_Init_Spawner:
 _Init_Game_Check_Spawn_Arg_No_Intro:
     pushad
 
- ;   call [GetCommandLineA]
- ;   push str_SpawnArg
- ;   push eax
- ;   call strstr_
- ;   add esp, 8
- ;   xor ebx, ebx
- ;   cmp eax, 0  
-;    setne bl
+    call [GetCommandLineA]
+    push str_SpawnArg
+    push eax
+    call strstr_
+    add esp, 8
+    xor ebx, ebx
+    cmp eax, 0  
+    setne bl
     
-    mov ebx, 1 ; HACK DONT CHECK -SPAWN
+;    mov ebx, 1 ; HACK DONT CHECK -SPAWN
     
     mov [var.IsSpawnArgPresent], ebx
     popad

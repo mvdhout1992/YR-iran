@@ -11,7 +11,7 @@ _WinMain_Read_RA2md_INI_Read_Windowed_Option:
     
 ; Start loading our own settings:
 
-    INIClass_Get_Bool INIClass_RA2md_INI, str_Options, str_NoCD, 0
+    INIClass_Get_Bool INIClass_RA2md_INI, str_Options, str_NoCD, 1
     cmp al, 0
     jz .Dont_Set_NoCD
     mov byte [var.IsNoCD], al

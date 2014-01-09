@@ -9,7 +9,7 @@
 %include "src/macros/INIclass_macros.asm"
 %include "src/macros/spawner_macros.asm"
 
-;%include "src/loading.asm"
+%include "src/loading.asm"
 
 ; spawner
 %include "src/spawner/spawner.asm"
@@ -23,7 +23,7 @@
 %include "src/spawner/spectators.asm"
 
 ; misc
-;%include "src/copy_protection.asm"
-;%include "src/no-cd.asm"
-;%include "src/graphics_patch.asm"
+%include "src/copy_protection.asm"
+%include "src/no-cd.asm"
+%include "src/graphics_patch.asm"
 
