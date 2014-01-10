@@ -23,7 +23,7 @@
 %include "src/spawner/spectators.asm"
 
 ; fixes
-%include "src/grinder_soylent_exploit_fix.asm"
+;%include "src/grinder_soylent_exploit_fix.asm"
 
 ; misc
 %include "src/copy_protection.asm"
